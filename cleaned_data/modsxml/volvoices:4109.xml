@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0117_000050_000263_0001</identifier>
    <identifier type="filename">0117_000050_000263_0001.jp2</identifier>
    <name type="personal">
       <namePart>Schroedl, Gerald F.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -22,14 +30,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This is a photograph of a representative selection of Qualla rim sherds from the Chattooga site. Chattooga is a Cherokee archaeological site that was formerly called &apos;Cherokee Town.&apos; Cherokee Town was an 18th century village associated with the Lower town Cherokee communities of northern Georgia and western South Carolina. The site is thought to have been occupied for only 160 years and was abandoned by the Cherokees in the 1740s. This site is given special attention because it retained early 18th century Cherokee material culture. This material culture is difficult to find and distinguish on other Cherokee sites of the same time period. The University of Tennessee (UT) and the Francis Marion National Forest conducted archaeological excavations at Chattooga during 1989-1994. The focus of these excavations was to develop a better understanding of the nature of the historical Cherokee occupation at the site and compare these findings with those found on other 18th century Cherokee sites. As a result of these excavations, archaeologists were able to identify and partially excavate the remains of five superimposed council houses. In addition, the excavations of two winter structures and one summer domestic structure were conducted. Through the use of surface collection, test pit excavations, and remote sensing equipment, vast amounts of artifacts and the location of additional buildings and features were found with minimal disturbance to the site.</abstract>
+   <abstract>This is a photograph of a representative selection of Qualla rim sherds from the Chattooga site. Chattooga is a Cherokee archaeological site that was formerly called 'Cherokee Town.' Cherokee Town was an 18th century village associated with the Lower town Cherokee communities of northern Georgia and western South Carolina. The site is thought to have been occupied for only 160 years and was abandoned by the Cherokees in the 1740s. This site is given special attention because it retained early 18th century Cherokee material culture. This material culture is difficult to find and distinguish on other Cherokee sites of the same time period. The University of Tennessee (UT) and the Francis Marion National Forest conducted archaeological excavations at Chattooga during 1989-1994. The focus of these excavations was to develop a better understanding of the nature of the historical Cherokee occupation at the site and compare these findings with those found on other 18th century Cherokee sites. As a result of these excavations, archaeologists were able to identify and partially excavate the remains of five superimposed council houses. In addition, the excavations of two winter structures and one summer domestic structure were conducted. Through the use of surface collection, test pit excavations, and remote sensing equipment, vast amounts of artifacts and the location of additional buildings and features were found with minimal disturbance to the site.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">zxx</languageTerm>
    </language>
    <location>
       <physicalLocation>Frank H. McClung Museum (Knoxville, Tenn.)</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -38,7 +46,8 @@
          </holding>
       </holdingExternal>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh2009125236">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh2009125236">
       <topic>Excavations (Archaeology)--United States</topic>
    </subject>
    <subject authority="lcsh">
@@ -51,7 +60,8 @@
       <topic>Native Americans</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n78090514">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n78090514">
          <namePart>Schroedl, Gerald F.</namePart>
       </name>
    </subject>
@@ -74,7 +84,8 @@
          <title>Frank H. McClung Museum Photographic Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0117_000050_000263_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

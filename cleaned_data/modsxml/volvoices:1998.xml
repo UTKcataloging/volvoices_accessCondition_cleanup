@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000053_000210_0001</identifier>
    <identifier type="filename">0015_000053_000210_0001.jp2</identifier>
    <name type="personal">
       <namePart>Covert, Bernard</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cmp">Composer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cmp">Composer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -40,7 +48,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Nashville</text>
                <text>County: Davidson County</text>
@@ -53,10 +61,12 @@
    <subject authority="lcsh">
       <topic>Grant, Ulysses S. (Ulysses Simpson), 1822-1885--Songs and music</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85039038">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85039038">
       <topic>Fort Donelson, Battle of, Tenn., 1862</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh2009118200">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh2009118200">
       <topic>Campaign songs--United States</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
@@ -72,7 +82,8 @@
       <topic>Wars and Military</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n80126151">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n80126151">
          <namePart>Grant, Ulysses S. (Ulysses Simpson), 1822-1885</namePart>
       </name>
    </subject>
@@ -92,7 +103,8 @@
          <title>Kenneth D. Rose Sheet Music Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000053_000210_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

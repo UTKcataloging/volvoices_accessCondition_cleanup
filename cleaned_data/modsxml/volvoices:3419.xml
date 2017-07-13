@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0096_000050_000232_0001</identifier>
    <identifier type="filename">0096_000050_000232_0001.jp2</identifier>
    <name type="corporate">
       <namePart>Cline Photo</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -14,7 +22,10 @@
    <typeOfResource>still image</typeOfResource>
    <originInfo>
       <dateCreated>between 1920 and 1950?</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="questionable">1920</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="questionable">1920</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1950</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -23,7 +34,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This photograph is titled, &quot;Birthplace of the Ku Klux Klan - 1-2-166&quot;. This picture is of the office where the Ku Klux Klan was founded in Pulaski, TN.</abstract>
+   <abstract>This photograph is titled, "Birthplace of the Ku Klux Klan - 1-2-166". This picture is of the office where the Ku Klux Klan was founded in Pulaski, TN.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
@@ -35,7 +46,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Pulaski</text>
                <text>County: Giles County</text>
@@ -51,18 +62,21 @@
       <topic>Civil and Human Rights</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n80076145">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n80076145">
          <namePart>Ku Klux Klan (1915- )</namePart>
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n83030249">Pulaski (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n83030249">Pulaski (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.19972N, 87.03083W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82102458">Giles County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n82102458">Giles County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.23333N, 87.03333W</coordinates>
       </cartographics>
@@ -83,7 +97,8 @@
          <title>Postcard Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0096_000050_000232_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0117_000050_000232_0001</identifier>
    <identifier type="filename">0117_000050_000232_0001.jp2</identifier>
    <name type="personal">
       <namePart>Roberts, Wayne D.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -14,7 +22,10 @@
    <typeOfResource>still image</typeOfResource>
    <originInfo>
       <dateCreated>approximately between 1967 and 1983</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1967</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1967</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1983</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -24,14 +35,15 @@
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
    <abstract>This aerial photograph shows the former site of Chota and Tanasee, 18th century Overhill Cherokee villages in the Little Tennessee River Valley. Chota was recognized by Native Americans and European settlers as a powerful social and economic influence and was regarded as the capital of the Cherokee nation. The University of Tennessee conducted excavations of Overhill Cherokee villages between 1967 and 1983 as part of the Tellico Archaeological Project in anticipation of the flooding of the lower Little Tennessee River Valley by the Tellico Dam Reservoir. The excavations were conducted under contract with the National Park Service and the Tennessee Valley Authority (TVA).</abstract>
-   <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026032">Aerial photographs</genre>
+   <genre authority="lcgft"
+          valueURI="http://id.loc.gov/authorities/genreForms/gf2011026032">Aerial photographs</genre>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Frank H. McClung Museum (Knoxville, Tenn.)</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -43,13 +55,16 @@
    <subject authority="lcsh">
       <topic>Overhill Cherokee villages</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh88003961">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh88003961">
       <topic>Chota Site (Tenn.)</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh88003962">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh88003962">
       <topic>Tanasee Site (Tenn.)</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85023080">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85023080">
       <topic>Cherokee Indians</topic>
    </subject>
    <subject authority="fast" valueURI="http://id.worldcat.org/fast/810745">
@@ -65,13 +80,15 @@
       <topic>Native Americans</topic>
    </subject>
    <subject>
-      <geographic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh95010016">Little Tennessee River Valley (Ga.-Tenn.)</geographic>
+      <geographic authority="lcsh"
+                  valueURI="http://id.loc.gov/authorities/subjects/sh95010016">Little Tennessee River Valley (Ga.-Tenn.)</geographic>
    </subject>
    <subject>
       <geographic>Tellico Lake Region (Tenn.)</geographic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80037799">Monroe County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n80037799">Monroe County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.45000N,  84.23333W</coordinates>
       </cartographics>
@@ -92,7 +109,8 @@
          <title>Frank H. McClung Museum Photographic Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0117_000050_000232_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

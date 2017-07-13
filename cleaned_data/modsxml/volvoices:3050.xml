@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0072_000052_000211_0001</identifier>
    <identifier type="filename">0072_000052_000211_0001.jp2</identifier>
    <name type="corporate">
       <namePart>Hooks Brothers</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -22,14 +30,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This photograph is titled, &quot;Hardeman County Training School&quot;. It is a picture of a Mortgage Burning celebration at the Hardeman County Training School. This African-American school would come to be the Allen-White High School. It was built with assistance from the Rosenwald Fund which was operated by Julius Rosenwald, CEO of Sears Roebuck Co..</abstract>
+   <abstract>This photograph is titled, "Hardeman County Training School". It is a picture of a Mortgage Burning celebration at the Hardeman County Training School. This African-American school would come to be the Allen-White High School. It was built with assistance from the Rosenwald Fund which was operated by Julius Rosenwald, CEO of Sears Roebuck Co..</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Bolivar-Hardeman County Library</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Bolivar</text>
                <text>County: Hardeman County</text>
@@ -50,13 +58,15 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n83023393">Bolivar (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n83023393">Bolivar (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.25611N, 88.98778W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n83023392">Hardeman County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n83023392">Hardeman County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.21667N, 88.98333W</coordinates>
       </cartographics>
@@ -77,7 +87,8 @@
          <title>Allen-White High School</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0072_000052_000211_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

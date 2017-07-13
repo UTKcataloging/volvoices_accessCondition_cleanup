@@ -1,11 +1,18 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000062_000212_0001</identifier>
    <identifier type="filename">0015_000062_000212_0001.jp2</identifier>
    <name type="personal">
       <namePart>Rutherford, Charles E.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -22,7 +29,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>In this photograph, Civilian Conservation Corps workers pose on the ring and chow gong at C.C.C. Company 417, in Ivy, Tennessee. On the back of the photograph, the people in photo are identified as Joe Givins, Calvin Robinson, Jack Pitts, Leo Decker, and Charles Rutherford. The dates are inferred from Charles Rutherford&apos;s promotion certificates.</abstract>
+   <abstract>In this photograph, Civilian Conservation Corps workers pose on the ring and chow gong at C.C.C. Company 417, in Ivy, Tennessee. On the back of the photograph, the people in photo are identified as Joe Givins, Calvin Robinson, Jack Pitts, Leo Decker, and Charles Rutherford. The dates are inferred from Charles Rutherford's promotion certificates.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
@@ -33,7 +40,7 @@
       <topic>Civilian Conservation Corps (U.S.)--Officials and employees--1930-1940</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
-      <topic>Tennessee Valley Authority and &quot;grass roots democracy&quot;</topic>
+      <topic>Tennessee Valley Authority and "grass roots democracy"</topic>
    </subject>
    <subject displayLabel="Broad Topics">
       <topic>Government and Politics</topic>
@@ -42,7 +49,8 @@
       <topic>Wars and Military</topic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80037799">Monroe County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n80037799">Monroe County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.45000N, 84.23333W</coordinates>
       </cartographics>
@@ -58,7 +66,8 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000062_000212_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

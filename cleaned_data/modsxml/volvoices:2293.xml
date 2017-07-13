@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0023_000054_000203_0001</identifier>
    <identifier type="filename">0023_000054_000203_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -22,14 +30,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>Picture of Mrs. Febb E. Burn (Mrs. James L.) in her garden near the family&apos;s residence at Hathburn Farm in Niota, TN.  Mrs. Burn wrote a famous letter to her son, Harry T. Burn, in which she urged him to vote for women&apos;s suffrage.  He subsequently cast the tie-breaking vote in the Tennessee legislature which led to the ratification of the 19th Amendment in 1920.  use for: subject: ? 1873-1945</abstract>
+   <abstract>Picture of Mrs. Febb E. Burn (Mrs. James L.) in her garden near the family's residence at Hathburn Farm in Niota, TN.  Mrs. Burn wrote a famous letter to her son, Harry T. Burn, in which she urged him to vote for women's suffrage.  He subsequently cast the tie-breaking vote in the Tennessee legislature which led to the ratification of the 19th Amendment in 1920.  use for: subject: ? 1873-1945</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Knoxville-Knox County Public Library (Knoxville, Tenn.)</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -45,13 +53,15 @@
       <topic>Civil and Human Rights</topic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n81112582">McMinn County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n81112582">McMinn County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.43333N, 84.60000W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n81102870">Knox County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n81102870">Knox County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.01667N, 83.93333W</coordinates>
       </cartographics>
@@ -72,7 +82,8 @@
          <title>Harry T. Burn Papers</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0023_000054_000203_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

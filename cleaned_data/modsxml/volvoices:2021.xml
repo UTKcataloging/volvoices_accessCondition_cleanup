@@ -1,11 +1,18 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000060_000220_0001</identifier>
    <identifier type="filename">0015_000060_000220_0001.jp2</identifier>
    <name type="personal">
       <namePart>Rickman, James O.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -36,7 +43,7 @@
       <topic>Civilian Conservation Corps (U.S.)--Officials and employees--1930-1940</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
-      <topic>Tennessee Valley Authority and &quot;grass roots democracy&quot;</topic>
+      <topic>Tennessee Valley Authority and "grass roots democracy"</topic>
    </subject>
    <subject displayLabel="Broad Topics">
       <topic>Government and Politics</topic>
@@ -45,7 +52,8 @@
       <topic>Nature and the Environment</topic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n81112451">Unicoi County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n81112451">Unicoi County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.11666N, 82.43305W</coordinates>
       </cartographics>
@@ -61,7 +69,8 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000060_000220_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

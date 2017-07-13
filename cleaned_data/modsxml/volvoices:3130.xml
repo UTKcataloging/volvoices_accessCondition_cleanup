@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0076_000050_000227_0001</identifier>
    <identifier type="filename">0076_000050_000227_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -15,7 +23,10 @@
    <typeOfResource>still image</typeOfResource>
    <originInfo>
       <dateCreated>approximately between 1865 and 1920</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1865</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1865</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1920</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -24,14 +35,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This photograph is titled, &quot;The warf in Chattanooga, Tennessee&quot;. The reverse side reads, &quot;Old Freight Elevator and Warehouse at Chattanooga Wharf&quot;.</abstract>
+   <abstract>This photograph is titled, "The warf in Chattanooga, Tennessee". The reverse side reads, "Old Freight Elevator and Warehouse at Chattanooga Wharf".</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Clyde W. Roddy Public Library</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Dayton</text>
                <text>County: Rhea County</text>
@@ -52,13 +63,15 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79075123">Chattanooga (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79075123">Chattanooga (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.04556N, 85.30972W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80097823">Hamilton County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n80097823">Hamilton County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.20000N, 85.15000W</coordinates>
       </cartographics>
@@ -74,7 +87,8 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0076_000050_000227_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

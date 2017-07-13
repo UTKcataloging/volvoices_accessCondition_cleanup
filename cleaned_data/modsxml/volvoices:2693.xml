@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0045_000050_000203_0001</identifier>
    <identifier type="filename">0045_000050_000203_0001.jp2</identifier>
    <name type="personal">
       <namePart>Currier, N.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/art">Artist</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/art">Artist</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -27,7 +35,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This poster advertised the 1856 campaign of Millard Fillmore and Andrew J. Donelson for the presidency and vice-presidency on the National American ticket. The poster has oval sketches of each man, surrounded by flags and ivy, with the slogan &quot;The Constitution and the Union&quot; above their heads. Note: copyrighted by N. Currier in NY, 1856. Published in N.Y.</abstract>
+   <abstract>This poster advertised the 1856 campaign of Millard Fillmore and Andrew J. Donelson for the presidency and vice-presidency on the National American ticket. The poster has oval sketches of each man, surrounded by flags and ivy, with the slogan "The Constitution and the Union" above their heads. Note: copyrighted by N. Currier in NY, 1856. Published in N.Y.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
@@ -39,7 +47,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Nashville</text>
                <text>County: Davidson County</text>
@@ -55,7 +63,7 @@
       <topic>Political campaigns--United States--19th century</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
-      <topic>Jacksonian democracy and Tennessee&apos;s leadership role in the Early Republic</topic>
+      <topic>Jacksonian democracy and Tennessee's leadership role in the Early Republic</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
       <topic>Debate over slavery, the Secession Crisis, and the Civil War: Tennessee as a uniquely divided border state</topic>
@@ -64,7 +72,8 @@
       <topic>Government and Politics</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n86011608">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n86011608">
          <namePart>Donelson, Andrew Jackson, 1799-1871</namePart>
       </name>
    </subject>
@@ -84,7 +93,8 @@
          <title>Hermitage Historic Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0045_000050_000203_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

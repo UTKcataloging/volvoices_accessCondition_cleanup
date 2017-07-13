@@ -1,5 +1,11 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0117_000050_000211_0001</identifier>
    <identifier type="filename">0117_000050_000211_0001.jp2</identifier>
    <titleInfo>
@@ -8,7 +14,10 @@
    <typeOfResource>cartographic</typeOfResource>
    <originInfo>
       <dateCreated>between 1982 and 1992?</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="questionable">1982</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="questionable">1982</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1992</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -17,14 +26,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This is a photograph of a map of the Overhill Cherokee sites that were occupied during the 18th century. The map is based on Henry Timberlake&apos;s 1762 map of the area as well as archaeological investigations made in 1967 through 1982, by The University of Tennessee as part of the Tellico Archaeological Project in anticipation of the flooding of the Lower Little Tennessee River by the Tellico Dam Reservoir. The excavations were conducted under contract with the National Park Service and the Tennessee Valley Authority (TVA). These well- known Overhill settlements of Mialoquo, Tuskeegee, Toqua, Chota, Citico, Tallassee, and Chilhowee are now all under water. The Cherokees who were located in north Georgia, northwest South Carolina, and Western North Carolina had to travel over the mountains from South Carolina to reach their brethren who lived in the lower Tennessee and Hiawasee River Valleys and thus they were referred to as the Overhill Cherokees.</abstract>
+   <abstract>This is a photograph of a map of the Overhill Cherokee sites that were occupied during the 18th century. The map is based on Henry Timberlake's 1762 map of the area as well as archaeological investigations made in 1967 through 1982, by The University of Tennessee as part of the Tellico Archaeological Project in anticipation of the flooding of the Lower Little Tennessee River by the Tellico Dam Reservoir. The excavations were conducted under contract with the National Park Service and the Tennessee Valley Authority (TVA). These well- known Overhill settlements of Mialoquo, Tuskeegee, Toqua, Chota, Citico, Tallassee, and Chilhowee are now all under water. The Cherokees who were located in north Georgia, northwest South Carolina, and Western North Carolina had to travel over the mountains from South Carolina to reach their brethren who lived in the lower Tennessee and Hiawasee River Valleys and thus they were referred to as the Overhill Cherokees.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Frank H. McClung Museum (Knoxville, Tenn.)</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -33,7 +42,8 @@
          </holding>
       </holdingExternal>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85133636">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85133636">
       <topic>Tellico Dam (Tenn.)</topic>
    </subject>
    <subject authority="lcsh">
@@ -55,10 +65,12 @@
       <geographic>Tellico Lake Region (Tenn.)</geographic>
    </subject>
    <subject>
-      <geographic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh95010015">Little River Valley (Tenn.)</geographic>
+      <geographic authority="lcsh"
+                  valueURI="http://id.loc.gov/authorities/subjects/sh95010015">Little River Valley (Tenn.)</geographic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80037799">Monroe County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n80037799">Monroe County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.45000N,  84.23333W</coordinates>
       </cartographics>
@@ -79,7 +91,8 @@
          <title>Frank H. McClung Museum Photographic Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0117_000050_000211_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

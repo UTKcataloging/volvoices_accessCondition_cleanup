@@ -1,15 +1,22 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000061_000203_0001</identifier>
    <identifier type="filename">0015_000061_000203_0001.jp2</identifier>
    <name type="personal">
       <namePart>Rankin, Anne Porterfield, 1887-1941</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <titleInfo>
-      <title>Outdoor canteen of the National League for Woman&apos;s Service, Chalons-Sur-Marne, France</title>
+      <title>Outdoor canteen of the National League for Woman's Service, Chalons-Sur-Marne, France</title>
    </titleInfo>
    <typeOfResource>still image</typeOfResource>
    <originInfo>
@@ -22,17 +29,19 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>Outdoor canteen of the National League for Woman&apos;s Service. The watercooler has the business logo of Crystal Springs in the Catskill Mountains. Soldiers eat at outdoor tables under tents, served by women of the National League for Woman&apos;s Service. A notation on the back of the photograph places the location as Chalons-Sur-Marne ARC Canteen, France.</abstract>
+   <abstract>Outdoor canteen of the National League for Woman's Service. The watercooler has the business logo of Crystal Springs in the Catskill Mountains. Soldiers eat at outdoor tables under tents, served by women of the National League for Woman's Service. A notation on the back of the photograph places the location as Chalons-Sur-Marne ARC Canteen, France.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Tennessee State Library and Archives</physicalLocation>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh2010118957">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh2010118957">
       <topic>World War, 1914-1918--Women--United States</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/sh87005830#concept">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/sh87005830#concept">
       <topic>World War, 1914-1918--War work</topic>
    </subject>
    <subject displayLabel="Broad Topics">
@@ -52,7 +61,8 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000061_000203_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

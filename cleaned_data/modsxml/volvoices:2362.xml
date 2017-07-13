@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0030_000050_000210_0001</identifier>
    <identifier type="filename">0030_000050_000210_0001.jp2</identifier>
    <name type="personal">
       <namePart>Hodgson, Lee Maguire</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/asn">Associated name</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/asn">Associated name</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -17,7 +25,10 @@
          <placeTerm type="text" valueURI="http://id.loc.gov/authorities/names/n81139858">Clarksville (Tenn.)</placeTerm>
       </place>
       <dateCreated>approximately between 1875 and 1925</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1875</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1875</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1925</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -26,14 +37,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>Lee Maguire Hodgson was a bicycle enthusiast who participated in the bicycle racing craze that swept through Clarksville. The &quot;High Wheeler,&quot; introduced in England in 1873 was the first to have an all-metal frame and rubber tires.</abstract>
+   <abstract>Lee Maguire Hodgson was a bicycle enthusiast who participated in the bicycle racing craze that swept through Clarksville. The "High Wheeler," introduced in England in 1873 was the first to have an all-metal frame and rubber tires.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Austin Peay State University</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Clarksville</text>
                <text>County: Montgomery County</text>
@@ -57,7 +68,8 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80098835">Montgomery County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n80098835">Montgomery County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.48333N, 87.48333W</coordinates>
       </cartographics>
@@ -78,7 +90,8 @@
          <title>Clarksville Montgomery County Photographs</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0030_000050_000210_0001</recordIdentifier>
       <recordContentSource>Austin Peay State University</recordContentSource>

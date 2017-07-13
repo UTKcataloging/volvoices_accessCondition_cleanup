@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0086_000050_000228_0001</identifier>
    <identifier type="filename">0086_000050_000228_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -14,7 +22,10 @@
    <typeOfResource>still image</typeOfResource>
    <originInfo>
       <dateCreated>approximately between 1920 and 1930</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1920</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1920</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1930</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -23,14 +34,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This photograph is titled, &quot;Milk delivery truck in Johnson City, Tennessee&quot;. The driver of a horse-drawn milk delivery truck stands outside his cab for a photograph.  According to the reverse side of the photograph, the picture was taken in Johnson City, Tennessee.</abstract>
+   <abstract>This photograph is titled, "Milk delivery truck in Johnson City, Tennessee". The driver of a horse-drawn milk delivery truck stands outside his cab for a photograph.  According to the reverse side of the photograph, the picture was taken in Johnson City, Tennessee.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Washington County Public Library (Jonesborough, Tenn.)</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Jonesborough</text>
                <text>County: Washington County</text>
@@ -46,13 +57,15 @@
       <topic>Farming and Agriculture</topic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79071806">Johnson City (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79071806">Johnson City (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.31333N, 82.35361W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n85389258">Washington County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n85389258">Washington County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.28333N, 82.48333W</coordinates>
       </cartographics>
@@ -68,7 +81,8 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0086_000050_000228_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

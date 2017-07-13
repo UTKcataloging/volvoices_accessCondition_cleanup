@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0058_000050_000200_0001</identifier>
    <identifier type="filename">0058_000050_000200_0001.jp2</identifier>
    <name type="personal">
       <namePart>Crockett, Gib</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/att">Attributed name</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/att">Attributed name</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -28,7 +36,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This cartoon depicts Federal Judge Alan T. Goldsborough speaking from the bench to Clark and Lewis appearing before him. The caption reads &quot;Hasn&apos;t This Man Been Here Before?&quot; The inscription at the bottom reads &quot;With warm regards to H. Graham Morison, Gib Crockett.&quot; H. Graham Morrison served as U.S. Assistant Attorney General from 1948 through 1952. Thomas Campbell Clark served as the Attorney General of the United States from 1945 through 1949 when he was appointed to the United States Supreme Court. He was known for his work against labor unions. John L. Lewis founded the Congress of Industrial Industries and was president from 1936-1940 and had been a long-time union leader, beginning with working in the United Mining Workers of America.</abstract>
+   <abstract>This cartoon depicts Federal Judge Alan T. Goldsborough speaking from the bench to Clark and Lewis appearing before him. The caption reads "Hasn't This Man Been Here Before?" The inscription at the bottom reads "With warm regards to H. Graham Morison, Gib Crockett." H. Graham Morrison served as U.S. Assistant Attorney General from 1948 through 1952. Thomas Campbell Clark served as the Attorney General of the United States from 1945 through 1949 when he was appointed to the United States Supreme Court. He was known for his work against labor unions. John L. Lewis founded the Congress of Industrial Industries and was president from 1936-1940 and had been a long-time union leader, beginning with working in the United Mining Workers of America.</abstract>
    <genre>Political cartoons</genre>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
@@ -41,7 +49,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Kingsport</text>
                <text>County: Sullivan County</text>
@@ -50,7 +58,8 @@
          </holding>
       </holdingExternal>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85140410">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85140410">
       <topic>United States--Politics and government</topic>
    </subject>
    <subject authority="fast" valueURI="http://id.worldcat.org/fast/1082763">
@@ -66,7 +75,8 @@
       <topic>Trade, Business and Industry</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n85320746">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n85320746">
          <namePart>Clark, Tom C. (Tom Campbell), 1899-1977</namePart>
       </name>
    </subject>
@@ -76,13 +86,14 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79018774">Washington (D.C.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79018774">Washington (D.C.)</geographic>
       <cartographics>
          <coordinates>38.91694N, 77.00000W</coordinates>
       </cartographics>
    </subject>
    <subject displayLabel="Tennessee Social Studies K-12 Eras in American History">
-      <temporal>Era 9 - Postwar United States (1945-1970&apos;s)</temporal>
+      <temporal>Era 9 - Postwar United States (1945-1970's)</temporal>
    </subject>
    <relatedItem type="host" displayLabel="Project">
       <titleInfo>
@@ -97,7 +108,8 @@
          <title>Gib Crockett Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0058_000050_000200_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

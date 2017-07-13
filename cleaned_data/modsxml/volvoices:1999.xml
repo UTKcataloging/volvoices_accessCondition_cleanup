@@ -1,15 +1,23 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000053_000211_0001</identifier>
    <identifier type="filename">0015_000053_000211_0001.jp2</identifier>
    <name type="personal">
       <namePart>Berlin, Irving, 1888-1989</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cmp">Composer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cmp">Composer</roleTerm>
       </role>
    </name>
    <titleInfo>
-      <title>When It&apos;s Night Time Down in Dixieland</title>
+      <title>When It's Night Time Down in Dixieland</title>
    </titleInfo>
    <typeOfResource>still image</typeOfResource>
    <originInfo>
@@ -39,7 +47,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Nashville</text>
                <text>County: Davidson County</text>
@@ -48,26 +56,30 @@
          </holding>
       </holdingExternal>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85088876">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85088876">
       <topic>Popular music--United States</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh97006812">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh97006812">
       <topic>Racism in popular culture</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85011545">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85011545">
       <topic>Banjo</topic>
    </subject>
    <subject authority="fast" valueURI="http://id.worldcat.org/fast/1431521">
       <topic>Stereotypes (Social psychology)</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
-      <topic>Taxation and the narrowing of the franchise: &quot;Jim Crow&quot; laws and the poll tax</topic>
+      <topic>Taxation and the narrowing of the franchise: "Jim Crow" laws and the poll tax</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
       <topic>New South period and the industrialization of Tennessee</topic>
    </subject>
    <subject>
-      <geographic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85125633">Southern States</geographic>
+      <geographic authority="lcsh"
+                  valueURI="http://id.loc.gov/authorities/subjects/sh85125633">Southern States</geographic>
    </subject>
    <subject displayLabel="Tennessee Social Studies K-12 Eras in American History">
       <temporal>Era 7 - The Emergence of Modern America (1890-1930)</temporal>
@@ -80,7 +92,8 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000053_000211_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

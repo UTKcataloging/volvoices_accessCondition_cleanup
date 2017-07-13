@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0097_000050_000230_0001</identifier>
    <identifier type="filename">0097_000050_000230_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -25,14 +33,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>An image of a soldier posing outside of Hitler&apos;s home, the Eagles&apos; Nest, in Berchtesgaden, Germany. Berchtesgaden was purchased by the Nazis in the 1920s for their senior officers, and served as an outpost for the German Reichskanzlei office. The mountains were home to Nazi leaders and the area included a station, postoffice and the Berchtesgadener Hof Hotel. Most of the buildings in Berchtesgaden were destroyed immediately after the war.</abstract>
+   <abstract>An image of a soldier posing outside of Hitler's home, the Eagles' Nest, in Berchtesgaden, Germany. Berchtesgaden was purchased by the Nazis in the 1920s for their senior officers, and served as an outpost for the German Reichskanzlei office. The mountains were home to Nazi leaders and the area included a station, postoffice and the Berchtesgadener Hof Hotel. Most of the buildings in Berchtesgaden were destroyed immediately after the war.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Cookeville History Museum</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Cookeville</text>
                <text>County: Putnam County</text>
@@ -54,13 +62,15 @@
       <topic>Wars and Military</topic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80002930">Berchtesgaden (Germany)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n80002930">Berchtesgaden (Germany)</geographic>
       <cartographics>
          <coordinates>47.63334N, 13.00000E</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82153144">Putnam County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n82153144">Putnam County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.16667N, 85.65000W</coordinates>
       </cartographics>
@@ -81,7 +91,8 @@
          <title>Gaskell Warren Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0097_000050_000230_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

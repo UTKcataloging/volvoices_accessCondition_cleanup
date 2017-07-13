@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0046_000050_000217_0001</identifier>
    <identifier type="filename">0046_000050_000217_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -14,7 +22,10 @@
    <typeOfResource>still image</typeOfResource>
    <originInfo>
       <dateCreated>approximately between 1875 and 1892</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1875</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1875</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1892</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -23,14 +34,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>Professor Behm was head of Behm&apos;s Communnity College in Chattanooga, Tennessee which he began in 1875 after first starting a Community College in Indiana in 1854.  He served editor of The Central Union Agriculturalist.</abstract>
+   <abstract>Professor Behm was head of Behm's Communnity College in Chattanooga, Tennessee which he began in 1875 after first starting a Community College in Indiana in 1854.  He served editor of The Central Union Agriculturalist.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Chattanooga-Hamilton County Bicentennial Library</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Chattanooga</text>
                <text>County: Hamilton County</text>
@@ -49,17 +60,19 @@
    </subject>
    <subject>
       <name>
-         <namePart>Behm&apos;s Community College</namePart>
+         <namePart>Behm's Community College</namePart>
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79075123">Chattanooga (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79075123">Chattanooga (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.04556N, 85.30972W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80097823">Hamilton County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n80097823">Hamilton County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.20000N, 85.15000W</coordinates>
       </cartographics>
@@ -80,7 +93,8 @@
          <title>Chattanooga Times Portrait Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0046_000050_000217_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000050_000211_0001</identifier>
    <identifier type="filename">0015_000050_000211_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -26,7 +34,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This political cartoon shows a donkey, representing the Democratic Tennessee Legislature, and Columbia, representing women, struggling over suffrage. The donkey exclaims, &quot;Wait a minute - Let me see that again!&quot; Henry Romeike, Inc. of New York, NY provided this clipping to Carrie Chapman Catt.</abstract>
+   <abstract>This political cartoon shows a donkey, representing the Democratic Tennessee Legislature, and Columbia, representing women, struggling over suffrage. The donkey exclaims, "Wait a minute - Let me see that again!" Henry Romeike, Inc. of New York, NY provided this clipping to Carrie Chapman Catt.</abstract>
    <genre>Political cartoons</genre>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
@@ -39,7 +47,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Nashville</text>
                <text>County: Davidson County</text>
@@ -51,11 +59,12 @@
    <subject authority="lcsh">
       <topic>Women--Suffrage--Tennessee</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh87005351">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh87005351">
       <topic>Constitutional amendments--United States</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
-      <topic>Women&apos;s Suffrage and Tennessee&apos;s pivotal role in passage of 19th Amendment</topic>
+      <topic>Women's Suffrage and Tennessee's pivotal role in passage of 19th Amendment</topic>
    </subject>
    <subject displayLabel="Broad Topics">
       <topic>Women</topic>
@@ -67,19 +76,21 @@
       <topic>Social Reform</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n85185359">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n85185359">
          <namePart>Democratic Party (Tenn.)</namePart>
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.15000N, 86.78333W</coordinates>
       </cartographics>
    </subject>
    <subject displayLabel="Tennessee Social Studies K-12 Eras in American History">
-      <temporal>Era 7 - The Emergence of Modern America (1890-1930)</temporal>  
- </subject>
+      <temporal>Era 7 - The Emergence of Modern America (1890-1930)</temporal>
+   </subject>
    <relatedItem type="host" displayLabel="Project">
       <titleInfo>
          <title>Volunteer Voices</title>
@@ -93,7 +104,8 @@
          <title>Los Angeles Times</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000050_000211_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

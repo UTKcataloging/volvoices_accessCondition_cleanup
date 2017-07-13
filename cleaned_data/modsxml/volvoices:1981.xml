@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000050_000208_0001</identifier>
    <identifier type="filename">0015_000050_000208_0001.jp2</identifier>
    <name type="personal">
       <namePart>Grant</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -26,7 +34,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This artistic political cartoon shows Colonel Tennessee offering the ballot to a young woman representing &apos;suffrage.&apos; Behind them are sketches of the faces of many of the women who fought for women&apos;s suffrage, including Susan B. Anthony, Elizabeth Cady Stanton and Dr. Anna Shaw. Henry Romeike, Inc. of New York, NY provided this clipping to Carrie Chapman Catt.</abstract>
+   <abstract>This artistic political cartoon shows Colonel Tennessee offering the ballot to a young woman representing 'suffrage.' Behind them are sketches of the faces of many of the women who fought for women's suffrage, including Susan B. Anthony, Elizabeth Cady Stanton and Dr. Anna Shaw. Henry Romeike, Inc. of New York, NY provided this clipping to Carrie Chapman Catt.</abstract>
    <genre>Political cartoons</genre>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
@@ -39,7 +47,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Nashville</text>
                <text>County: Davidson County</text>
@@ -51,14 +59,16 @@
    <subject authority="lcsh">
       <topic>Women--Suffrage--Tennessee</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh87005351">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh87005351">
       <topic>Constitutional amendments--United States</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85129648">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85129648">
       <topic>Suffragists</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
-      <topic>Women&apos;s Suffrage and Tennessee&apos;s pivotal role in passage of 19th Amendment</topic>
+      <topic>Women's Suffrage and Tennessee's pivotal role in passage of 19th Amendment</topic>
    </subject>
    <subject displayLabel="Broad Topics">
       <topic>Women</topic>
@@ -70,7 +80,8 @@
       <topic>Social Reform</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n82096260">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n82096260">
          <namePart>Anthony, Susan B. (Susan Brownell), 1820-1906</namePart>
       </name>
    </subject>
@@ -80,7 +91,7 @@
       </name>
    </subject>
    <subject displayLabel="Tennessee Social Studies K-12 Eras in American History">
-      <temporal>Era 9 - Postwar United States (1945-1970&apos;s)</temporal>
+      <temporal>Era 9 - Postwar United States (1945-1970's)</temporal>
    </subject>
    <relatedItem type="host" displayLabel="Project">
       <titleInfo>
@@ -95,7 +106,8 @@
          <title>Los Angeles Examiner</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000050_000208_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

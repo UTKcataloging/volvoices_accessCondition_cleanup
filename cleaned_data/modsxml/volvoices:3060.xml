@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0073_000050_000212_0001</identifier>
    <identifier type="filename">0073_000050_000212_0001.jp2</identifier>
    <name>
       <namePart>unknown,</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -15,7 +23,10 @@
    <typeOfResource>still image</typeOfResource>
    <originInfo>
       <dateCreated>approximately between 1910 and 1920</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1910</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1910</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1920</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -31,7 +42,7 @@
    <location>
       <physicalLocation>Beck Cultural Exchange Center</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -40,10 +51,12 @@
          </holding>
       </holdingExternal>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85145895">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85145895">
       <topic>Wedding anniversaries</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85001843">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85001843">
       <topic>African American families</topic>
    </subject>
    <subject displayLabel="Broad Topics">
@@ -58,13 +71,15 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79109786">Knoxville (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79109786">Knoxville (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.96056N, 83.92083W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n81102870">Knox County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n81102870">Knox County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.01667N, 83.93333W</coordinates>
       </cartographics>
@@ -78,9 +93,10 @@
       </titleInfo>
       <location>
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
-      </location> 
-  </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+      </location>
+   </relatedItem>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0073_000050_000212_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

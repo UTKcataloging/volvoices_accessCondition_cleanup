@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000051_000201_0001</identifier>
    <identifier type="filename">0015_000051_000201_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -26,7 +34,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>Photo from scrapbook with caption that reads: Front or Outer office of Anti-Ratification Headquarters, Hotel Hermitage, Mrs. Morgan Brown, Executive Chairman, standing at the Entrance. Seated is a (relay?) of many prominent Nashville women, who faithfully served their state in detachments, day and night, during August 1920. Standing in the rear at the Entrance to the inner office of the President and Vice-President, Miss Josephine A. Pearson and Mrs. George A. Washington, respectively; is Mrs. Jas. Pinkard, President General of the Southern Women&apos;s League for the Rejection of the Susan B. Anthony Amendment. To her right, in the center, is Miss Charlotte Raine, field Speaker of the National Association Opposed to Woman Suffrage; near her to the right, is Mrs. Aspy of Boston, Field Organizer of the National Association.</abstract>
+   <abstract>Photo from scrapbook with caption that reads: Front or Outer office of Anti-Ratification Headquarters, Hotel Hermitage, Mrs. Morgan Brown, Executive Chairman, standing at the Entrance. Seated is a (relay?) of many prominent Nashville women, who faithfully served their state in detachments, day and night, during August 1920. Standing in the rear at the Entrance to the inner office of the President and Vice-President, Miss Josephine A. Pearson and Mrs. George A. Washington, respectively; is Mrs. Jas. Pinkard, President General of the Southern Women's League for the Rejection of the Susan B. Anthony Amendment. To her right, in the center, is Miss Charlotte Raine, field Speaker of the National Association Opposed to Woman Suffrage; near her to the right, is Mrs. Aspy of Boston, Field Organizer of the National Association.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
@@ -38,7 +46,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Nashville</text>
                <text>County: Davidson County</text>
@@ -50,11 +58,12 @@
    <subject authority="lcsh">
       <topic>Women--Suffrage--Tennessee</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh87005351">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh87005351">
       <topic>Constitutional amendments--United States</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
-      <topic>Women&apos;s Suffrage and Tennessee&apos;s pivotal role in passage of 19th Amendment</topic>
+      <topic>Women's Suffrage and Tennessee's pivotal role in passage of 19th Amendment</topic>
    </subject>
    <subject displayLabel="Broad Topics">
       <topic>Women</topic>
@@ -72,7 +81,7 @@
    </subject>
    <subject>
       <name>
-         <namePart>Southern Women&apos;s League for the Rejection of the Susan B. Anthony Amendment</namePart>
+         <namePart>Southern Women's League for the Rejection of the Susan B. Anthony Amendment</namePart>
       </name>
    </subject>
    <subject>
@@ -81,13 +90,15 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n78095801">Nashville (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n78095801">Nashville (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.16583N, 86.78445W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.15000N, 86.78333W</coordinates>
       </cartographics>
@@ -103,7 +114,8 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000051_000201_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

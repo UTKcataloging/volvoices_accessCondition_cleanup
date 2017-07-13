@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0117_000050_000255_0001</identifier>
    <identifier type="filename">0117_000050_000255_0001.jp2</identifier>
    <name type="personal">
       <namePart>Schroedl, Gerald F.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -22,14 +30,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This photograph is of a scale cabin reconstruction at the Red Clay site at Red Clay State Park in Bradley County, Tennessee. Federal Period Cherokee did not use machine rounded logs or saddle notch in the construction of their log cabins like what the photograph here shows. The Federal Period Cherokee would have cut their own logs and would have used wither dovetail, half-dovetail, or &apos;V&apos; notching for their cabins. By 1832, the state of Georgia had refused the Cherokee the right to hold council meetings unless the meeting dealt with treaties that gave away their lands. The Cherokee decided to move their capital from New Echota, Georgia across the state line to Red Clay, Tennessee because the state of Tennessee did not prohibit the Cherokees from meeting together. Thus, Red Clay became the seat of the Cherokee government in 1832 and lasted until the removal of the Cherokees to the west in 1838. Red Clay was composed of 11 general councils and the meetings were attended by up to 5000 people. It was at Red Clay that the Cherokee learned that they had lost all of their land and would be removed to the west. Red Clay consists of the sacred Blue Hole Spring, a reconstructed council house, and several reconstructed homestead buildings. Red Clay is home to the Eternal Flame, lit on April 6, 1984. The Cherokees took hot coals from their council fire at Red Clay on the Trail of Tears. The flame was taken to Cherokee, North Carolina in the 1950s but was returned to Red Clay in 1984.</abstract>
+   <abstract>This photograph is of a scale cabin reconstruction at the Red Clay site at Red Clay State Park in Bradley County, Tennessee. Federal Period Cherokee did not use machine rounded logs or saddle notch in the construction of their log cabins like what the photograph here shows. The Federal Period Cherokee would have cut their own logs and would have used wither dovetail, half-dovetail, or 'V' notching for their cabins. By 1832, the state of Georgia had refused the Cherokee the right to hold council meetings unless the meeting dealt with treaties that gave away their lands. The Cherokee decided to move their capital from New Echota, Georgia across the state line to Red Clay, Tennessee because the state of Tennessee did not prohibit the Cherokees from meeting together. Thus, Red Clay became the seat of the Cherokee government in 1832 and lasted until the removal of the Cherokees to the west in 1838. Red Clay was composed of 11 general councils and the meetings were attended by up to 5000 people. It was at Red Clay that the Cherokee learned that they had lost all of their land and would be removed to the west. Red Clay consists of the sacred Blue Hole Spring, a reconstructed council house, and several reconstructed homestead buildings. Red Clay is home to the Eternal Flame, lit on April 6, 1984. The Cherokees took hot coals from their council fire at Red Clay on the Trail of Tears. The flame was taken to Cherokee, North Carolina in the 1950s but was returned to Red Clay in 1984.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">zxx</languageTerm>
    </language>
    <location>
       <physicalLocation>Frank H. McClung Museum (Knoxville, Tenn.)</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -48,7 +56,8 @@
       <topic>Government and Politics</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n78090514">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n78090514">
          <namePart>Schroedl, Gerald F.</namePart>
       </name>
    </subject>
@@ -56,7 +65,8 @@
       <geographic>Red Clay (Tenn.)</geographic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n81024913">Bradley County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n81024913">Bradley County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.15000N, 84.86667W</coordinates>
       </cartographics>
@@ -77,7 +87,8 @@
          <title>Frank H. McClung Museum Photographic Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0117_000050_000255_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

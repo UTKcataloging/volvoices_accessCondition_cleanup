@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0012_000064_000200_0001</identifier>
    <identifier type="filename">0012_000064_000200_0001.jp2</identifier>
    <name type="personal">
       <namePart>Nast, Thomas, 1840-1902</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -16,7 +24,7 @@
       <place supplied="yes">
          <placeTerm type="text" valueURI="http://id.loc.gov/authorities/names/n79007751">New York (N.Y.)</placeTerm>
       </place>
-      <publisher>Harper&apos;s Magazine Co.</publisher>
+      <publisher>Harper's Magazine Co.</publisher>
       <dateCreated>1865</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes">1865</dateCreated>
       <dateIssued encoding="edtf" keyDate="yes">1865</dateIssued>
@@ -27,7 +35,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>From: Harper&apos;s Weekly, v.9, no.463, November 11, 1865. At head, left, and right margins: &quot;Boorish tailor, drunken beast, patriot, statesman, Jackson; Beastly instincts, demagogical habits, boorish mind; &apos;Not one word or act of his which a national democrat would not defend.&apos;&quot; Caption quotations located at four corners.</abstract>
+   <abstract>From: Harper's Weekly, v.9, no.463, November 11, 1865. At head, left, and right margins: "Boorish tailor, drunken beast, patriot, statesman, Jackson; Beastly instincts, demagogical habits, boorish mind; 'Not one word or act of his which a national democrat would not defend.'" Caption quotations located at four corners.</abstract>
    <genre>Political cartoons</genre>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
@@ -40,7 +48,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -71,7 +79,8 @@
       <topic>Wars and Military</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n79056304">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n79056304">
          <namePart>Johnson, Andrew, 1808-1875</namePart>
       </name>
    </subject>
@@ -93,10 +102,11 @@
    </relatedItem>
    <relatedItem type="host" displayLabel="Is Part Of">
       <titleInfo>
-         <title>Harper&apos;s Weekly</title>
+         <title>Harper's Weekly</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0012_000064_000200_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

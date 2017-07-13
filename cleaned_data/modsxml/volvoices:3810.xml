@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0093_000051_000200_0001</identifier>
    <identifier type="filename">0093_000051_000200_0001.jp2</identifier>
    <name type="corporate">
       <namePart>Fisk School</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/asn">Associated name</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/asn">Associated name</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -25,7 +33,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>1 tif. An image of Fisk School, housed in former Union barracks, at its founding in 1866. The image is tinted orange and shows a set of small buildings bounded by fences. In the courtyards, large groups of students are gathered. The photograph is from June, 1886 though courses started on January 9, 1866. Fisk School was named after General Clinton B. Fisk of the Tennessee Freedmans Bureau which provided the school&apos;s facilities. The school was associated with education of African Americans, with W.E.B. Du Bois a member of the 1888 class. It was the first African-American college to receive accreditation in 1930.</abstract>
+   <abstract>1 tif. An image of Fisk School, housed in former Union barracks, at its founding in 1866. The image is tinted orange and shows a set of small buildings bounded by fences. In the courtyards, large groups of students are gathered. The photograph is from June, 1886 though courses started on January 9, 1866. Fisk School was named after General Clinton B. Fisk of the Tennessee Freedmans Bureau which provided the school's facilities. The school was associated with education of African Americans, with W.E.B. Du Bois a member of the 1888 class. It was the first African-American college to receive accreditation in 1930.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
@@ -37,7 +45,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Nashville</text>
                <text>County: Davidson County</text>
@@ -56,18 +64,21 @@
       <topic>African-Americans</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n79041721">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n79041721">
          <namePart>Fisk University</namePart>
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n78095801">Nashville (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n78095801">Nashville (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.16583N, 86.78445W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.15000N, 86.78333W</coordinates>
       </cartographics>
@@ -88,7 +99,8 @@
          <title>Picture File</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0093_000051_000200_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

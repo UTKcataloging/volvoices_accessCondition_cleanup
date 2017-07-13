@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0023_000051_000203_0001</identifier>
    <identifier type="filename">0023_000051_000203_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -23,7 +31,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This tinted(?) postcard presents William G. Brownlow&apos;s face against his home in Knoxville, TN. Brownlow, was known as &quot;The Fighting Parson&quot; because of his colorful speeches and writing as a preacher, in his paper, The Knoxville Whig, and in politics. During the post-War Reconstruction period, 1865-1869, he served as Governor of Tennessee. During the Civil War he was against secession, as were many people in east Tennessee.</abstract>
+   <abstract>This tinted(?) postcard presents William G. Brownlow's face against his home in Knoxville, TN. Brownlow, was known as "The Fighting Parson" because of his colorful speeches and writing as a preacher, in his paper, The Knoxville Whig, and in politics. During the post-War Reconstruction period, 1865-1869, he served as Governor of Tennessee. During the Civil War he was against secession, as were many people in east Tennessee.</abstract>
    <genre>Photographic postcards</genre>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
@@ -32,7 +40,7 @@
    <location>
       <physicalLocation>Knoxville-Knox County Public Library (Knoxville, Tenn.)</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -45,12 +53,14 @@
       <topic>Government and Politics</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n50051650">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n50051650">
          <namePart>Brownlow, William Gannaway, 1805-1877</namePart>
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n81102870">Knox County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n81102870">Knox County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.01667N, 83.93333W</coordinates>
       </cartographics>
@@ -71,7 +81,8 @@
          <title>Photo File</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0023_000051_000203_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

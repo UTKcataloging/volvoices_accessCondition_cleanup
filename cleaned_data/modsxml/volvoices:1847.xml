@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0012_000090_000200_0001</identifier>
    <identifier type="filename">0012_000090_000200_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -17,7 +25,10 @@
          <placeTerm type="text" valueURI="http://id.loc.gov/authorities/names/no2005033618">Rugby (Tenn.)</placeTerm>
       </place>
       <dateCreated>approximately between 1880 and 1890</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1880</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1880</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1890</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -26,14 +37,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This collection consists of one 8x10 black-and-white photograph of members of the Rugby Colony in Morgan County, Tennessee, participating in a summer outing. The Rugby Colony was founded by English author and social reformer Thomas Hughes and was officially christened on October 5, 1880. The colony dissolved in the early 1890&apos;s due to a number of obstacles they had faced in preceding years.</abstract>
+   <abstract>This collection consists of one 8x10 black-and-white photograph of members of the Rugby Colony in Morgan County, Tennessee, participating in a summer outing. The Rugby Colony was founded by English author and social reformer Thomas Hughes and was officially christened on October 5, 1880. The colony dissolved in the early 1890's due to a number of obstacles they had faced in preceding years.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -61,18 +72,21 @@
       <topic>Sports and Recreation</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n50034198">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n50034198">
          <namePart>Hughes, Thomas, 1822-1896</namePart>
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/no2005033618">Rugby (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/no2005033618">Rugby (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.36028N, 84.70084W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n84047494">Morgan County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n84047494">Morgan County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.13334N, 84.63333W</coordinates>
       </cartographics>
@@ -93,7 +107,8 @@
          <title>Rugby (Tenn.) Colony Photograph</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0012_000090_000200_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

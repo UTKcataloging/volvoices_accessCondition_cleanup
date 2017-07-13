@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0014_000054_000207_0001</identifier>
    <identifier type="filename">0014_000054_000207_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -26,7 +34,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>A sketch from Frank Leslie&apos;s Illustrated Newspaper. The full caption of the sketch is &quot;Tennessee - Arrest of Yellow Fever Refugees by the Safety Patrol of Memphis.&quot; The image is of two men with guns approaching an unarmed family at a refugee camp.</abstract>
+   <abstract>A sketch from Frank Leslie's Illustrated Newspaper. The full caption of the sketch is "Tennessee - Arrest of Yellow Fever Refugees by the Safety Patrol of Memphis." The image is of two men with guns approaching an unarmed family at a refugee camp.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
@@ -38,7 +46,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Memphis</text>
                <text>County: Shelby County</text>
@@ -47,7 +55,8 @@
          </holding>
       </holdingExternal>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85149092">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85149092">
       <topic>Yellow fever</topic>
    </subject>
    <subject displayLabel="Broad Topics">
@@ -57,7 +66,8 @@
       <topic>Immigrants and Immigration</topic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n78095779">Memphis (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n78095779">Memphis (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.14944N, 90.04889W</coordinates>
       </cartographics>
@@ -80,10 +90,11 @@
    </relatedItem>
    <relatedItem type="host" displayLabel="Is Part Of">
       <titleInfo>
-         <title>Frank Leslie&apos;s Illustrated Newspaper</title>
+         <title>Frank Leslie's Illustrated Newspaper</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0014_000054_000207_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

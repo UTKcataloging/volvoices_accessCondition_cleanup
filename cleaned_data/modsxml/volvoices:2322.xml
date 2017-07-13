@@ -1,17 +1,27 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0027_000050_000228_0001</identifier>
    <identifier type="filename">0027_000050_000228_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <name type="personal">
       <namePart>Williams, John, Mrs.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/dnr">Donor</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/dnr">Donor</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -23,7 +33,10 @@
          <placeTerm type="text" valueURI="http://id.loc.gov/authorities/names/n82063401">Jackson (Tenn.)</placeTerm>
       </place>
       <dateCreated>probably between 1941 and 1945</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="inferred">1941</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="inferred">1941</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1945</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -32,14 +45,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>Written on back of the photograph: &quot;Welding submarine net floats, WWII.&quot; Williams Steel Works in Jackson, Tennessee.</abstract>
+   <abstract>Written on back of the photograph: "Welding submarine net floats, WWII." Williams Steel Works in Jackson, Tennessee.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Jackson-Madison County Library</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Jackson</text>
                <text>County: Madison County</text>
@@ -61,13 +74,15 @@
       <topic>Wars and Military</topic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82063401">Jackson (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n82063401">Jackson (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.61444N, 88.81389W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82063402">Madison County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n82063402">Madison County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.61666N, 88.85000W</coordinates>
       </cartographics>
@@ -88,7 +103,8 @@
          <title>Jackson Business History Project Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0027_000050_000228_0001</recordIdentifier>
       <recordContentSource>Memphis Public Library and Information Center</recordContentSource>

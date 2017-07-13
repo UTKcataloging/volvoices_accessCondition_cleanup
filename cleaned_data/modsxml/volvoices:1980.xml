@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000050_000207_0001</identifier>
    <identifier type="filename">0015_000050_000207_0001.jp2</identifier>
    <name type="personal">
       <namePart>Thurlby</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/ill">Illustrator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -26,7 +34,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This political cartoon illustrates the constitutional controversy that ensued after the Tennessee legislature ratified the 19th Amendment. A teacher with a desk labeled &quot;National Woman Suffrage&quot; has her partially eaten apple, labeled &quot;Ratification,&quot; stolen by a misbehaving boy from Tennessee, who exclaims, &quot;I didn&apos;t give it to ya ta keep!&quot; Behind the teacher, there is a Roll of Honor of the 36 states who had ratified the 19th Amendment on which number 36, Tennessee, is crossed out. Henry Romeike, Inc. of New York, NY provided this clipping to Carrie Chapman Catt.</abstract>
+   <abstract>This political cartoon illustrates the constitutional controversy that ensued after the Tennessee legislature ratified the 19th Amendment. A teacher with a desk labeled "National Woman Suffrage" has her partially eaten apple, labeled "Ratification," stolen by a misbehaving boy from Tennessee, who exclaims, "I didn't give it to ya ta keep!" Behind the teacher, there is a Roll of Honor of the 36 states who had ratified the 19th Amendment on which number 36, Tennessee, is crossed out. Henry Romeike, Inc. of New York, NY provided this clipping to Carrie Chapman Catt.</abstract>
    <genre>Political cartoons</genre>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
@@ -39,7 +47,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Nashville</text>
                <text>County: Davidson County</text>
@@ -51,14 +59,16 @@
    <subject authority="lcsh">
       <topic>Women--Suffrage--Tennessee</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh87005351">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh87005351">
       <topic>Constitutional amendments--United States</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85147598">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85147598">
       <topic>Women in popular culture</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
-      <topic>Women&apos;s Suffrage and Tennessee&apos;s pivotal role in passage of 19th Amendment</topic>
+      <topic>Women's Suffrage and Tennessee's pivotal role in passage of 19th Amendment</topic>
    </subject>
    <subject displayLabel="Broad Topics">
       <topic>Women</topic>
@@ -70,7 +80,8 @@
       <topic>Social Reform</topic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.15000N, 86.78333W</coordinates>
       </cartographics>
@@ -91,7 +102,8 @@
          <title>Seattle Times</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000050_000207_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

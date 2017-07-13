@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0117_000050_000220_0001</identifier>
    <identifier type="filename">0117_000050_000220_0001.jp2</identifier>
    <name type="personal">
       <namePart>Drescher, Marion</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/ctg">Cartographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/ctg">Cartographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -14,7 +22,10 @@
    <typeOfResource>still image</typeOfResource>
    <originInfo>
       <dateCreated>between 1974 and 1984?</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="questionable">1974</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="questionable">1974</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1984</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -30,7 +41,7 @@
    <location>
       <physicalLocation>Frank H. McClung Museum (Knoxville, Tenn.)</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -39,16 +50,20 @@
          </holding>
       </holdingExternal>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh88003961">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh88003961">
       <topic>Chota Site (Tenn.)</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85133636">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85133636">
       <topic>Tellico Dam (Tenn.)</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85023080">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85023080">
       <topic>Cherokee Indians</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85023080">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85023080">
       <topic>Cherokee Indians</topic>
    </subject>
    <subject authority="fast" valueURI="http://id.worldcat.org/fast/810745">
@@ -64,7 +79,8 @@
       <topic>Architecture</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n86005863">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n86005863">
          <namePart>Guthe, Alfred K. (Alfred Kidder), 1920-1983</namePart>
       </name>
    </subject>
@@ -74,16 +90,19 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh95010016">Little Tennessee River Valley (Ga.-Tenn.)</geographic>
+      <geographic authority="lcsh"
+                  valueURI="http://id.loc.gov/authorities/subjects/sh95010016">Little Tennessee River Valley (Ga.-Tenn.)</geographic>
    </subject>
    <subject>
-      <geographic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85133636">Tellico Dam (Tenn.)</geographic>
+      <geographic authority="lcsh"
+                  valueURI="http://id.loc.gov/authorities/subjects/sh85133636">Tellico Dam (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.77778N, 84.25972W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80037799">Monroe County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n80037799">Monroe County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.45000N,  84.23333W</coordinates>
       </cartographics>
@@ -104,7 +123,8 @@
          <title>Frank H. McClung Museum Photographic Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0117_000050_000220_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

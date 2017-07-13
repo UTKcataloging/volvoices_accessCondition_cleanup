@@ -1,17 +1,27 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0062_000051_000224_0001</identifier>
    <identifier type="filename">0062_000051_000224_0001.jp2</identifier>
    <name type="personal">
       <namePart>Adams, Donald R.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/dnr">Donor</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/dnr">Donor</roleTerm>
       </role>
    </name>
    <name type="corporate" authority="naf" valueURI="">
       <namePart>Tennessee Valley Authority</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/att">Attributed name</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/att">Attributed name</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -28,14 +38,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This photograph is titled, &quot;TVA Generator Stators, 88925-I&quot;. It is from the collection contributed by Donald R. (Little Joe) Adams. &quot;The books you are now looking at were started in 1968 by apprentice of different crafts and professional photographers. There were originally three sets of these books, but due to the changing of the supervision in TVA, two of the sets were destroyed. The last remaining set was in my care for about 25 years. (image shows: methods and units used for assembling Units 1A and 1B generator stators on temporary trams above base plates.) EntryID=S099 , detail loc: Tennessee Valley Authority Notebook 2; county: houston</abstract>
+   <abstract>This photograph is titled, "TVA Generator Stators, 88925-I". It is from the collection contributed by Donald R. (Little Joe) Adams. "The books you are now looking at were started in 1968 by apprentice of different crafts and professional photographers. There were originally three sets of these books, but due to the changing of the supervision in TVA, two of the sets were destroyed. The last remaining set was in my care for about 25 years. (image shows: methods and units used for assembling Units 1A and 1B generator stators on temporary trams above base plates.) EntryID=S099 , detail loc: Tennessee Valley Authority Notebook 2; county: houston</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Houston County Public Library</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Erin</text>
                <text>County: Houston County</text>
@@ -51,18 +61,21 @@
       <topic>Trade, Business and Industry</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n80126249">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n80126249">
          <namePart>Tennessee Valley Authority</namePart>
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n83227896">Erin (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n83227896">Erin (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.31833N, 87.69473W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/no92025133">Houston County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/no92025133">Houston County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.30000N, 87.73333W</coordinates>
       </cartographics>
@@ -86,7 +99,8 @@
          <title>Tennessee Valley Authority Scrapbooks Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0062_000051_000224_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

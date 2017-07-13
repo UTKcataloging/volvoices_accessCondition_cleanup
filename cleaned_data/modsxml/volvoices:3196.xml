@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0085_000050_000203_0001</identifier>
    <identifier type="filename">0085_000050_000203_0001.jp2</identifier>
    <name type="personal">
       <namePart>Kelly, Albert S.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -18,7 +26,10 @@
          <placeTerm type="text" valueURI="http://id.loc.gov/authorities/names/n81124833">Bristol (Va.)</placeTerm>
       </place>
       <dateCreated>approximately between 1920 and 1930</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1920</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1920</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1930</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -27,14 +38,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>The Kelly and Green Photo Company was founded by Albert Kelly, Sr. in 1920. It was located at 514 Cumberland Street, Bristol, Virginia. The owners were: Albert S. Kelly of 1000 Prospect Avenue, who was also president of Bristol Radio Company, Inc., Charles P. Kelly of King Mill Pike, and George L. Kelly of Erie, Pennsylvania.  Prior to World War II, the company&apos;s photographers photographed stores, city scenes (primarily in Bristol, Tennessee/Virginia), and schools. In their early years of business, the company had a complete mailing service of form letters, multigraphing, addressing, mailing, public stenography, and notarizing.</abstract>
+   <abstract>The Kelly and Green Photo Company was founded by Albert Kelly, Sr. in 1920. It was located at 514 Cumberland Street, Bristol, Virginia. The owners were: Albert S. Kelly of 1000 Prospect Avenue, who was also president of Bristol Radio Company, Inc., Charles P. Kelly of King Mill Pike, and George L. Kelly of Erie, Pennsylvania.  Prior to World War II, the company's photographers photographed stores, city scenes (primarily in Bristol, Tennessee/Virginia), and schools. In their early years of business, the company had a complete mailing service of form letters, multigraphing, addressing, mailing, public stenography, and notarizing.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Bristol Historical Association</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Bristol</text>
                <text>County: Sullivan County</text>
@@ -46,7 +57,8 @@
    <subject authority="lcsh">
       <topic>Stores, Retail--Virginia--Bristol</topic>
    </subject>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85067271">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85067271">
       <topic>Interior architecture</topic>
    </subject>
    <subject authority="lcsh">
@@ -70,19 +82,22 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n81124834">Bristol (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n81124834">Bristol (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.59500N, 82.18861W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n81124833">Bristol (Va.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n81124833">Bristol (Va.)</geographic>
       <cartographics>
          <coordinates>36.59639N, 82.18833W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79145814">Sullivan County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79145814">Sullivan County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.51667N,  82.53333W</coordinates>
       </cartographics>
@@ -98,7 +113,8 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0085_000050_000203_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

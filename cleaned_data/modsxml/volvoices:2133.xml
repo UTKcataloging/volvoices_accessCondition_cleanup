@@ -1,15 +1,23 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000077_000206_0001</identifier>
    <identifier type="filename">0015_000077_000206_0001.jp2</identifier>
    <name type="personal">
       <namePart>Keenan, W.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/egr">Engraver</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/egr">Engraver</roleTerm>
       </role>
    </name>
    <titleInfo>
-      <title>Map of Places refered [referred] to in &quot;JOHN SEVIER, the commonwealth builder&quot;</title>
+      <title>Map of Places refered [referred] to in "JOHN SEVIER, the commonwealth builder"</title>
    </titleInfo>
    <typeOfResource>cartographic</typeOfResource>
    <originInfo>
@@ -27,14 +35,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This document is a map, circa 1800, of places referred to by John Sevier in East Tennessee, North Carolina, Kentucky, and Georgia. It is found in the frontpiece of &quot;Ramsey&apos;s Annals of Tennessee to the End of the Eighteenth Century&quot;.</abstract>
+   <abstract>This document is a map, circa 1800, of places referred to by John Sevier in East Tennessee, North Carolina, Kentucky, and Georgia. It is found in the frontpiece of "Ramsey's Annals of Tennessee to the End of the Eighteenth Century".</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Tennessee State Library and Archives</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Nashville</text>
                <text>County: Davidson County</text>
@@ -50,7 +58,8 @@
       <topic>Wars and Military</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/nr89016779">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/nr89016779">
          <namePart>Sevier, John, 1745-1815</namePart>
       </name>
    </subject>
@@ -60,13 +69,15 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79060965">Tennessee</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79060965">Tennessee</geographic>
       <cartographics>
          <coordinates>35.75028N, 86.25027W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79060705">Davidson County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.15000N, 86.78333W</coordinates>
       </cartographics>
@@ -82,12 +93,13 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <relatedItem type="host" displayLabel="Collection">     
- <titleInfo>
+   <relatedItem type="host" displayLabel="Collection">
+      <titleInfo>
          <title>Tennessee State Library, Miscellaneous documents</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000077_000206_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

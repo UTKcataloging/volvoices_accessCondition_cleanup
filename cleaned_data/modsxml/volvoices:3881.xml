@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0097_000050_000204_0001</identifier>
    <identifier type="filename">0097_000050_000204_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -14,10 +22,14 @@
    <typeOfResource>still image</typeOfResource>
    <originInfo>
       <place supplied="yes">
-         <placeTerm type="text" valueURI="http://id.loc.gov/authorities/subjects/sh86000647">Argonne (France)</placeTerm>
+         <placeTerm type="text"
+                    valueURI="http://id.loc.gov/authorities/subjects/sh86000647">Argonne (France)</placeTerm>
       </place>
       <dateCreated>approximately between 1939 and 1945</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1939</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1939</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1945</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -26,14 +38,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>A black and white photograph of a Red Cross Clubmobile, the &quot;El Paso,&quot; in the Argonne Forrest, France. In World War II the American Red Cross collaborated with the U.S. Armed Forces to provide entertainment for the troops.  In 1944, in preparation for the invasion of Normandy, 32 two-and-a-half-ton GMC trucks were converted into Clubmobiles with kitchens and lodging for their crew. Clubmobiles were mobile entertainment, and served troops coffee and doughnuts, distributed cigarettes and played albums. They were each staffed by three American women who received their orders from the Army.  Clubmobiles were given names of states and cities in the United States, hence the &quot;El Paso&quot; pictured here. They served troops in England, France, Italy, Belgium, Luxembourg, and Germany, until May 7, 1945.</abstract>
+   <abstract>A black and white photograph of a Red Cross Clubmobile, the "El Paso," in the Argonne Forrest, France. In World War II the American Red Cross collaborated with the U.S. Armed Forces to provide entertainment for the troops.  In 1944, in preparation for the invasion of Normandy, 32 two-and-a-half-ton GMC trucks were converted into Clubmobiles with kitchens and lodging for their crew. Clubmobiles were mobile entertainment, and served troops coffee and doughnuts, distributed cigarettes and played albums. They were each staffed by three American women who received their orders from the Army.  Clubmobiles were given names of states and cities in the United States, hence the "El Paso" pictured here. They served troops in England, France, Italy, Belgium, Luxembourg, and Germany, until May 7, 1945.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Cookeville History Museum</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Cookeville</text>
                <text>County: Putnam County</text>
@@ -42,7 +54,8 @@
          </holding>
       </holdingExternal>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85148273">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85148273">
       <topic>World War, 1939-1945</topic>
    </subject>
    <subject displayLabel="Broad Topics">
@@ -52,7 +65,8 @@
       <topic>Women</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n84161581">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n84161581">
          <namePart>American Red Cross</namePart>
       </name>
    </subject>
@@ -67,7 +81,8 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82153144">Putnam County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n82153144">Putnam County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.16667N, 85.65000W</coordinates>
       </cartographics>
@@ -88,7 +103,8 @@
          <title>Gaskell Warren Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0097_000050_000204_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

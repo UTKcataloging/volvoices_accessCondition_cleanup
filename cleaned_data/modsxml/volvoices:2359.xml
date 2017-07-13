@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0030_000050_000207_0001</identifier>
    <identifier type="filename">0030_000050_000207_0001.jp2</identifier>
    <name type="personal">
       <namePart>Kirk, Matt</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -17,7 +25,10 @@
          <placeTerm type="text" valueURI="http://id.loc.gov/authorities/names/n81139858">Clarksville (Tenn.)</placeTerm>
       </place>
       <dateCreated>approximately between 1930 and 1935</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1930</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="approximate">1930</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1935</dateCreated>
    </originInfo>
    <physicalDescription>
@@ -26,14 +37,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>Citizens are lined up on both sides of Franklin Street to celebrate the Christmas season.   The town&quot;s Christmas parade travels through the downtown business district of Clarksville, Tennessee.  Seven dogs are seen pulling a sled with attached wheels as the parade passes in front of Dunlap Shoes.</abstract>
+   <abstract>Citizens are lined up on both sides of Franklin Street to celebrate the Christmas season.   The town"s Christmas parade travels through the downtown business district of Clarksville, Tennessee.  Seven dogs are seen pulling a sled with attached wheels as the parade passes in front of Dunlap Shoes.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
    <location>
       <physicalLocation>Austin Peay State University</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Clarksville</text>
                <text>County: Montgomery County</text>
@@ -55,7 +66,8 @@
       <topic>Family Life and Gender Relations</topic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80098835">Montgomery County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n80098835">Montgomery County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.48333N, 87.48333W</coordinates>
       </cartographics>
@@ -76,8 +88,9 @@
          <title>Clarksville Montgomery County Photographs</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition> 
-  <recordInfo>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
+   <recordInfo>
       <recordIdentifier>record_0030_000050_000207_0001</recordIdentifier>
       <recordContentSource>Austin Peay State University</recordContentSource>
       <languageOfCataloging>

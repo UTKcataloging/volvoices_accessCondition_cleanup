@@ -1,11 +1,18 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0015_000060_000211_0001</identifier>
    <identifier type="filename">0015_000060_000211_0001.jp2</identifier>
    <name type="personal">
       <namePart>Frykholm, C.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -33,7 +40,7 @@
       <topic>Water resources development--Tennessee--Norris Lake region</topic>
    </subject>
    <subject displayLabel="Volunteer Voices Curriculum Topics">
-      <topic>Tennessee Valley Authority and &quot;grass roots democracy&quot;</topic>
+      <topic>Tennessee Valley Authority and "grass roots democracy"</topic>
    </subject>
    <subject displayLabel="Broad Topics">
       <topic>Farming and Agriculture</topic>
@@ -42,7 +49,8 @@
       <topic>Transportation and Internal Improvements</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n80126249">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n80126249">
          <namePart>Tennessee Valley Authority</namePart>
       </name>
    </subject>
@@ -53,13 +61,15 @@
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82030802">Anderson County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n82030802">Anderson County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.11666N, 84.21667W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79028033">Union County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79028033">Union County (Tenn.)</geographic>
       <cartographics>
          <coordinates>36.28333N, 83.83334W</coordinates>
       </cartographics>
@@ -75,7 +85,8 @@
          <url>http://digital.lib.utk.edu/collections/volvoices</url>
       </location>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0015_000060_000211_0001</recordIdentifier>
       <recordContentSource>Tennessee State Library and Archives</recordContentSource>

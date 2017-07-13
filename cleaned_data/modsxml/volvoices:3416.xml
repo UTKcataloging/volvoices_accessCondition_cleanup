@@ -1,11 +1,21 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0096_000050_000229_0001</identifier>
    <identifier type="filename">0096_000050_000229_0001.jp2</identifier>
-   <name type="corporate" authority="naf" valueURI="http://id.loc.gov/authorities/names/nr2004026443">
+   <name type="corporate"
+         authority="naf"
+         valueURI="http://id.loc.gov/authorities/names/nr2004026443">
       <namePart>Curt Teich &amp; Co.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/prt">Printer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/prt">Printer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -15,7 +25,10 @@
    <originInfo>
       <publisher>Curt Teich and Co.</publisher>
       <dateCreated>between 1920 and 1950?</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="questionable">1920</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="questionable">1920</dateCreated>
       <dateCreated encoding="edtf" keyDate="yes" point="end">1950</dateCreated>
       <dateIssued encoding="edtf" keyDate="yes" qualifier="questionable">1935</dateIssued>
    </originInfo>
@@ -25,7 +38,7 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This postcard is titled, &quot;Club House - 6A293&quot;. It is an image of the Club House at Milky Way Farm near Pulaski, Tenn.</abstract>
+   <abstract>This postcard is titled, "Club House - 6A293". It is an image of the Club House at Milky Way Farm near Pulaski, Tenn.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
    </language>
@@ -37,7 +50,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Pulaski</text>
                <text>County: Giles County</text>
@@ -55,13 +68,15 @@
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n83030249">Pulaski (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n83030249">Pulaski (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.19972N, 87.03083W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82102458">Giles County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n82102458">Giles County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.23333N, 87.03333W</coordinates>
       </cartographics>
@@ -82,7 +97,8 @@
          <title>Postcard Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0096_000050_000229_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

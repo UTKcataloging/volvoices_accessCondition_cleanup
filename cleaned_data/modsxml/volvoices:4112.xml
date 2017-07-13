@@ -1,11 +1,19 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0117_000050_000266_0001</identifier>
    <identifier type="filename">0117_000050_000266_0001.jp2</identifier>
    <name type="personal">
       <namePart>Schroedl, Gerald F.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -22,14 +30,14 @@
       <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
-   <abstract>This photograph is of a reconstructed blockhouse and stockade wall at Fort Southwest Point, located near the city of Kingston, in Roane County, Tennessee. The blockhouse is constructed from hewn logs and is one of four reconstructed blockhouses at the fort. The stockade was was first used as a defensive wall, but eventually was used to contain the Cherokees who were to be removed to the west. Fort Southwest Point was established in 1792 as a blockhouse post for the territorial militia troops that were protecting white settlers from Indian acts of hostility. By 1797, the militia was replaced by Federal troops whose goals were to maintain peace with the Indians and protect their rights on the frontier. During the years between 1801-1807, the fort was established as the headquarter for the Cherokee Agency. In 1974, archaeological crews from the University of Tennessee unearthed portions of six fort building foundations, the remains of a massive stone wall, and many fort-period artifacts. A 1984 excavation of the site by the Department of Conservation and the City of Kingston located the sites of a total of thirteen buildings. These buildings include an officer&apos;s barracks, four blockhouses, and several buildings that are believed to have been barracks. A complementary excavation in 1986 revealed the location of two more buildings, bringing the total to fifteen buildings. The excavation also produced a more detailed examination of the palisade and stone wall enclosures.</abstract>
+   <abstract>This photograph is of a reconstructed blockhouse and stockade wall at Fort Southwest Point, located near the city of Kingston, in Roane County, Tennessee. The blockhouse is constructed from hewn logs and is one of four reconstructed blockhouses at the fort. The stockade was was first used as a defensive wall, but eventually was used to contain the Cherokees who were to be removed to the west. Fort Southwest Point was established in 1792 as a blockhouse post for the territorial militia troops that were protecting white settlers from Indian acts of hostility. By 1797, the militia was replaced by Federal troops whose goals were to maintain peace with the Indians and protect their rights on the frontier. During the years between 1801-1807, the fort was established as the headquarter for the Cherokee Agency. In 1974, archaeological crews from the University of Tennessee unearthed portions of six fort building foundations, the remains of a massive stone wall, and many fort-period artifacts. A 1984 excavation of the site by the Department of Conservation and the City of Kingston located the sites of a total of thirteen buildings. These buildings include an officer's barracks, four blockhouses, and several buildings that are believed to have been barracks. A complementary excavation in 1986 revealed the location of two more buildings, bringing the total to fifteen buildings. The excavation also produced a more detailed examination of the palisade and stone wall enclosures.</abstract>
    <language>
       <languageTerm type="code" authority="iso639-2b">zxx</languageTerm>
    </language>
    <location>
       <physicalLocation>Frank H. McClung Museum (Knoxville, Tenn.)</physicalLocation>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Knoxville</text>
                <text>County: Knox County</text>
@@ -48,18 +56,21 @@
       <topic>Wars and Military</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n78090514">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n78090514">
          <namePart>Schroedl, Gerald F.</namePart>
       </name>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n84112171">Kingston (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n84112171">Kingston (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.88083N, 84.50861W</coordinates>
       </cartographics>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82226528">Roane County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n82226528">Roane County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.85000N, 84.53333W</coordinates>
       </cartographics>
@@ -80,7 +91,8 @@
          <title>Frank H. McClung Museum Photographic Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/UND/1.0/">Copyright Undetermined</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0117_000050_000266_0001</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>

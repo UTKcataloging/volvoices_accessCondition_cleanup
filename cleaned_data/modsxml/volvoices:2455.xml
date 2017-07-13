@@ -1,17 +1,27 @@
-
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">0038_000050_000200_0001</identifier>
    <identifier type="filename">0038_000050_000200_0001.jp2</identifier>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
       </role>
    </name>
    <name type="corporate" authority="naf" valueURI="">
       <namePart>Bemis Bro. Bag Company</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/asn">Associated name</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/asn">Associated name</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -46,7 +56,7 @@
          </copyInformation>
       </holdingSimple>
       <holdingExternal>
-         <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+         <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
             <physicalAddress>
                <text>City: Jackson</text>
                <text>County: Madison County</text>
@@ -55,7 +65,8 @@
          </holding>
       </holdingExternal>
    </location>
-   <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85033339">
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85033339">
       <topic>Cotton picking</topic>
    </subject>
    <subject authority="lcsh">
@@ -74,7 +85,8 @@
       <topic>Farming and Agriculture</topic>
    </subject>
    <subject>
-      <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n80051064">
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n80051064">
          <namePart>Bemis Bro. Bag Company</namePart>
       </name>
    </subject>
@@ -82,14 +94,15 @@
       <geographic>Bemis (Tenn.)</geographic>
    </subject>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82063402">Madison County (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n82063402">Madison County (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.61666N, 88.85000W</coordinates>
       </cartographics>
    </subject>
    <subject displayLabel="Tennessee Social Studies K-12 Eras in American History">
-      <temporal>Era 7 - The Emergence of Modern America (1890-1930)</temporal>   
-</subject>
+      <temporal>Era 7 - The Emergence of Modern America (1890-1930)</temporal>
+   </subject>
    <relatedItem type="host" displayLabel="Project">
       <titleInfo>
          <title>Volunteer Voices</title>
@@ -103,7 +116,8 @@
          <title>Bemis Collection</title>
       </titleInfo>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_0038_000050_000200_0001</recordIdentifier>
       <recordContentSource>Memphis Public Library and Information Center</recordContentSource>
